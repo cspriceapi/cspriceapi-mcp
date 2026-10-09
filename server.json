@@ -3,8 +3,12 @@
   "name": "com.cspriceapi/mcp",
   "title": "CSPriceAPI – CS2 skin prices",
   "description": "Live CS2 skin prices: BUFF163, YouPin, Skinport, CSFloat, Steam and 8 more markets, Doppler phases",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://cspriceapi.com/docs/mcp",
+  "repository": {
+    "url": "https://github.com/cspriceapi/cspriceapi-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
