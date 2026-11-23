@@ -1,6 +1,6 @@
 # CSPriceAPI MCP Server — live CS2 skin prices for AI assistants
 
-CSPriceAPI is the CS2 skin price API for traders who need Chinese markets: live BUFF163 and YouPin prices, YouPin buy orders, Doppler phases and float-ranged prices across 13 marketplaces in one REST API.
+CSPriceAPI is the CS2 skin price API for traders who need Chinese markets: live BUFF163 and YouPin prices, YouPin buy orders, Doppler phases and float-ranged prices across 16 marketplaces (15 listing markets plus the Steam Community Market) in one REST API.
 
 This remote [Model Context Protocol](https://modelcontextprotocol.io) server lets Claude, ChatGPT, Cursor, VS Code Copilot and other MCP clients look up those prices directly.
 
@@ -22,7 +22,7 @@ Transport: Streamable HTTP. No install needed. Docs: [cspriceapi.com/docs/mcp](h
 | Tool | Returns | Access |
 |---|---|---|
 | `find_items` | Exact `market_hash_name` values for a loose query ("karambit doppler fn", "st m4a1 printstream") | Free preview |
-| `get_prices` | Lowest listing price, listing count and an approximate USD value on YouPin898, BUFF163, C5Game, EcoSteam, SkinBaron, Skinport, CSFloat, LIS-SKINS, DMarket, ShadowPay, Waxpeer and Market.CSGO, the cheapest market, Steam best ask/bid. Doppler names return every phase | Free preview / Basic |
+| `get_prices` | Lowest listing price, listing count and an approximate USD value on YouPin898, BUFF163, C5Game, EcoSteam, SkinBaron, Skinport, CSFloat, LIS-SKINS, DMarket, ShadowPay, Waxpeer, CS.MONEY, White.market, Tradeit.gg and Market.CSGO, the cheapest market, Steam best ask/bid. Doppler names return every phase | Free preview / Basic |
 | `get_youpin_buy_orders` | Best YouPin buy order; with filters, every order with its float range, phase, Fade or Case Hardened tier | Pro / Enterprise |
 | `get_float_ranged_prices` | YouPin lowest price per float range, with phase and Fade % | Pro |
 | `get_price_history` | Daily or hourly price history on one marketplace | Enterprise |
