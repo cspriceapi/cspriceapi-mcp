@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.cspriceapi/mcp",
   "title": "CSPriceAPI – CS2 skin prices",
-  "description": "Live CS2 skin prices: BUFF163, YouPin, Skinport, CSFloat, Steam and 11 more markets, Doppler phases",
-  "version": "0.1.1",
+  "description": "Live CS2 skin prices from 16 marketplaces: BUFF163, YouPin, CSFloat, Skinport, Steam, Doppler phases",
+  "version": "0.1.2",
   "websiteUrl": "https://cspriceapi.com/docs/mcp",
   "repository": {
     "url": "https://github.com/cspriceapi/cspriceapi-mcp",

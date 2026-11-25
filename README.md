@@ -1,6 +1,6 @@
 # CSPriceAPI MCP Server — live CS2 skin prices for AI assistants
 
-CSPriceAPI is the CS2 skin price API for traders who need Chinese markets: live BUFF163 and YouPin prices, YouPin buy orders, Doppler phases and float-ranged prices across 16 marketplaces (15 listing markets plus the Steam Community Market) in one REST API.
+CSPriceAPI is the CS2 skin price API for traders who need Chinese markets: live BUFF163 and YouPin prices, YouPin buy orders, Doppler phases and float-ranged prices across 16 marketplaces (15 listing markets plus Steam) in one REST API.
 
 This remote [Model Context Protocol](https://modelcontextprotocol.io) server lets Claude, ChatGPT, Cursor, VS Code Copilot and other MCP clients look up those prices directly.
 
@@ -29,7 +29,7 @@ Transport: Streamable HTTP. No install needed. Docs: [cspriceapi.com/docs/mcp](h
 | `get_recent_sales` | Recent CSFloat, YouPin and Skinport sales with float, pattern and stickers | Enterprise |
 
 **Free preview (no key):** `find_items` and `get_prices` for one item per call, 5 lookups per day, prices from a snapshot up to 6 hours old.
-**With an API key:** live prices (refreshed about every 5 minutes), up to 50 items per call, and every tool your plan includes. Plans: [cspriceapi.com/pricing](https://cspriceapi.com/pricing). A free 2-day test key is available in the `#get-testkey` channel on [Discord](https://discord.gg/XT3rpfH4Tx).
+**With an API key:** live prices (refreshed about every 5 minutes), up to 50 items per call, and every tool your plan includes. Plans: [cspriceapi.com/pricing](https://cspriceapi.com/pricing). A free 2-day test key (every endpoint except price history, sales of the last 24 hours) is created instantly in the `#get-testkey` channel on [Discord](https://discord.gg/XT3rpfH4Tx).
 
 Send the key as `x-api-key: YOUR_API_KEY` or `Authorization: Bearer YOUR_API_KEY`.
 
